@@ -110,11 +110,5 @@
   <ItemGroup>
     <None Include="Resources\shoot.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.csproj">
-      <Project>{359a057e-6d89-42d4-b048-d7b278ad5b3c}</Project>
-      <Name>UnitTestProject1</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
